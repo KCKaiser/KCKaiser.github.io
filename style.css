@@ -1,0 +1,7 @@
+.Homeimg img{
+	width: 90%;
+	border-width: 5px;
+	float: right;
+	border-style: solid;
+	border-color: skyblue;
+	}
