@@ -2,7 +2,7 @@
 <html lang="en-us">
 <html>
     <head>
-        <title>Homework 10 - Plots</title>
+        <title>HW10 - Landing Page</title>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="style.css" rel = "stylesheet"/>
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -10,39 +10,76 @@
     </head>
     <body>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-        <a class="navbar-brand" href="https://KCKaiser.github.io/GWBootcamp/Homework10.html">Homework 10 - Web Development</a>
+           
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+              <a class="navbar-brand" href="https://KCKaiser.github.io/GWBootcamp/Homework10.html">Homework 10 - Web Development</a>
 
-  </div>
+        </div>
+    
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/max-temp.html">Maximum Temperature</a></li>
+                  <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/humidity.html">Humidity</a></li>
+                  <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/wind-speed.html">Wind Speed</a></li>
+                </ul>
+              </li>
+              <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/comparisons.html">Comparisons</a></li>
+              <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/data.html">Data</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+      
+      <div class = "container">
+        <div class = "row">
+            <div class="col-sm-12 col-md-8">
+              <h1>Wind Speed</h1>
+              <div class = "Genimg">
+              <img src = "Images/wind-speed.png">
+            </div>
+              <p>There does not seem to be any relationship between latitude and wind speed either. 
+                However, it appears that there are only a few locations with extremely 
+                high wind speeds and most of the locations have lower wind speeds.</p>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/max-temp.html">Maximum Temperature</a></li>
-            <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/humidity.html">Humidity</a></li>
-            <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/cloudiness.html">Cloudiness</a></li>
-            <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/wind-speed.html">Wind Speed</a></li>
-          </ul>
-        </li>
-        <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/comparisons.html">Comparisons</a></li>
-        <li><a href="https://KCKaiser.github.io/GWBootcamp/Homework10/data.html">Data</a></li>
-      </ul>
+      <div class="col-sm-12 col-md-4">
+        <h1>Visualizations</h1>
+        <div class = "row">
+        <div class = "col-md-12">
+ 
+            <div class = "col-sm-6 col-md-6">
+                <div class = "imgbutton"><a href = "https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/max-temp.html"><img src = "Images/max-temp.png"></a></div>
+            </div>
+            <div class = "col-sm-6 col-md-6">
+                <div class = "imgbutton"><a href = "https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/humidity.html"><img src = "Images/humidity.png"></a></div>
+          </div>
+
+            <div class = "col-sm-6 col-md-6">
+                <div class = "imgbutton"><a href = "https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/cloudiness.html"><img src = "Images/cloudiness.png"></a></div>
+            </div>
+            <div class = "col-sm-6 col-md-6">
+                <div class = "imgbutton"><a href = "https://KCKaiser.github.io/GWBootcamp/Homework10/Plots/wind-speed.html"><img src = "Images/wind-speed.png"></a></div>
+
+          </div>
+        </div></div></div>
+     
     </div>
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container-fluid -->
-</nav>
-</body>
+    </body>
 </html>
+    
