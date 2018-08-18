@@ -44,6 +44,14 @@ h1{
 	border-color: white;
 	}
 
+.Genimg img{
+	width: 70%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	}
+
 .imgbutton img{
-	width: 80%;
+	width: 100%;
+
 }
