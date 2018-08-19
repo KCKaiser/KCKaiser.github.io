@@ -13,24 +13,16 @@ body {
 		background-color: skyblue
 	}
 
-.navbar{
-	font-family: "Times New Roman", Times, serif; 
-	border-width: 5px;
-	border-color: rgb(39, 236, 161);
-	background-color: white;
-	}
-.navbar-brand{
+.navbar-header{
+		font-style: bold;
 		border-width: 5px;
-		border-color: rgb(122, 255, 204);
-		font-family: "Times New Roman", Times, serif; 
-		background-color: white;
+		border-color: rgb(122, 255, 204); 
+		background-color: rgb(122, 255, 204);
 	}
 
-.row{
+.container{
 	background-color: white;
-	border-color: rgb(122, 255, 204);
-	border-width: 5px;
-}
+}	
 
 h1{
 	color:  rgb(60, 153, 118);
@@ -53,5 +45,8 @@ h1{
 
 .imgbutton img{
 	width: 100%;
-
 }
+
+.navbar{
+	background-color: white;
+	}
